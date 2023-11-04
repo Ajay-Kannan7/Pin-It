@@ -1,0 +1,32 @@
+.pin-details{
+    width:60%;
+    border:3px solid black;
+    padding:4%;
+    margin:0 auto;
+    font-size:20px;
+    border-radius:20px;
+    text-align:center;
+    animation-name:zoomIn;
+    animation-duration: 0.2s;
+}
+
+.pin-details .link,
+.pin-details p,
+.pin-details h3{
+    margin-bottom:2%;
+    margin-top:2%;
+}
+
+.pin-details .link{
+    text-decoration: underline;
+    color:black;
+}
+.pin-details .link:hover{
+    text-decoration: none;
+}
+
+@media only screen and (max-width:900px){
+    .pin-details{
+        width:100%;
+    }
+}

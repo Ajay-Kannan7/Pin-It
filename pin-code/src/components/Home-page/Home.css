@@ -1,0 +1,44 @@
+.pin-home{
+    width:60%;
+    border:3px solid black;
+    padding:4%;
+    margin:3% auto;
+    font-size:30px;
+    border-radius:20px;
+    animation-name:zoomIn;
+    animation-duration: 0.5s;
+}
+.pin-home .form{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    font-size:50px;
+}
+
+.pin-home .form input{
+    width:80%;
+    border:3px solid black;
+    margin: 5% 0;
+    padding:2%;
+}
+
+.pin-home .form input::placeholder{
+    text-align:center;
+    color:black;
+    font-size:18px;
+}
+
+.pin-home .form button{
+    padding:2%;
+    font-size:18px;
+    background-color:#89B0AE;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+@media only screen and (max-width:900px){
+    .pin-home{
+        width:100%;
+    }
+}
